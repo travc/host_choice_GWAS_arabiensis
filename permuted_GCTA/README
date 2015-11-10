@@ -1,0 +1,18 @@
+
+See Genomewide_SNP_data for how to process your VCF file for GCTA.
+
+#make genetic relatedness matrix (grm)
+run_gcta1.sh
+
+#Estimate "SNP heritability":
+run_gcta2_host.sh      
+run_gcta2_resting.sh      
+
+#The standard error values were high. To further assess our H estimate, we permuted the phenotype data.
+permute_gcta_host.py
+permute_gcta_resting.py
+
+#Plot histogram and get estimated permuted p-value
+host_histogram.py
+resting_histogram.py
+

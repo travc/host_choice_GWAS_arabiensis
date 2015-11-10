@@ -1,0 +1,13 @@
+
+Travis:
+Please update this section with a description of SNPcalling in these samples.
+
+#vcftools_dir="/usr/local/bin/vcftools"
+#/mnt/popi/home/travc/install/vcftools/bin/vcftools"
+vcftools_dir="/home/bradmain/bin/vcftools/src/cpp/vcftools"
+
+$vcftools_dir --gzvcf /home/bradmain/arabiensis/VCFs/combined_fixed.vcf.bgz --weir-fst-pop PCA3_3Ra.txt --weir-fst-pop PCA2_v2.txt --out pca3_pca2 --fst-window-size 100000 --fst-window-step 20000
+
+vcftools_dir="/home/bradmain/bin/vcftools/src/cpp/vcftools"
+$vcftools_dir --gzvcf /home/bradmain/arabiensis/VCFs/combined_fixed.vcf.bgz --weir-fst-pop PCA1_2Rb.txt --weir-fst-pop PCA2_v2.txt --out pca1_pca2 --fst-window-size 100000 --fst-window-step 20000
+

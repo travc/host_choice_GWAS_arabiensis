@@ -1,0 +1,22 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf combined_fixed.vcf.bgz
+	--fst-window-size 100000
+	--fst-window-step 20000
+	--weir-fst-pop PCA3_3Ra.txt
+	--weir-fst-pop PCA2_v2.txt
+	--keep PCA3_3Ra.txt
+	--keep PCA2_v2.txt
+	--out pca3_pca2
+
+Using zlib version: 1.2.7
+Keeping individuals in 'keep' list
+After filtering, kept 31 out of 64 Individuals
+Outputting Windowed Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.011178
+Weir and Cockerham weighted Fst estimate: 0.021426
+After filtering, kept 17997159 out of a possible 17997159 Sites
+Run Time = 663.00 seconds

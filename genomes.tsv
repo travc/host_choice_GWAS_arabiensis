@@ -1,0 +1,57 @@
+Table S2									Lupiro Only											
+fieldtrip	date	combined nih2 for link_village	house	notes	trap type	in/out	ID	IHI	Sample ID	 Coverage	Putative 2Rb	Putative 3Ra	more Putative 2Rc	2Rc V2	HOST	RESTING				
+4	3/13/2012	LUP	4HH2	BUCKET Karibu	RBU 5m	out	23	356_4_1_1_1_1	 2012L_LUPI_002 	 11.66X  	2Rb	+	+		HUMAN	Outdoor				
+4	3/13/2012	LUP	4HH1	Goat	RA	out	24	364_4_2_1_1_2	 2012L_LUPI_015 	 18.26X  	+	+	+	1	CATTLE	Indoor				
+4	3/13/2012	LUP	4HH1	Goat	RA	out	25	364_4_4_1_1_4	 2012L_LUPI_017 	 13.91X  	+	+	+	1	CATTLE	Indoor				
+4	3/13/2012	LUP	4HH1	Goat	RA	out	26	364_4_5_1_1_5	 2012L_LUPI_018 	 19.11X  	+	3Ra	++	0	CATTLE	Indoor				
+4	3/14/2012	LUP	4HH1	BUCKET Karibu	RBU 5m	out	27	409_4_2_1_1_2	 2012L_LUPI_035 	 12.49X  	+	+	+	0	CATTLE	Outdoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	28	454_4_4_1_1_4	 2012L_LUPI_062 	 15.65X  	+	+	+	1	CATTLE	Indoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	29	454_4_7_1_1_7	 2012L_LUPI_065 	 13.33X  	+	+	+		CATTLE	Indoor				
+4	3/15/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	30	460_4_1_1_1_1	 2012L_LUPI_077 	 14.76X  	+	+	+		CATTLE	Outdoor				
+4	3/15/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	31	460_4_7_1_1_7	 2012L_LUPI_083 	 5.08X  	+	+	+	0?	CATTLE	Outdoor				
+4	3/16/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	32	508_4_6_1_1_6	 2012L_LUPI_116 	 7.47X  	2Rb	+	+		CATTLE	Outdoor				
+4	3/13/2012	LUP	4HH1	BUCKET Karibu	RBU 5m	out	33	363_4_2_1_1_2	 2012L_LUPI_013 	 6.62X  	+	+	+	0	CATTLE	Outdoor				
+4	3/16/2012	LUP	4HH3	Aspirator -indoor	RH	in	34	499_4_1_1_1_1	 2012L_LUPI_096 	 9.98X  	+	3Ra	2Rc	?	HUMAN	Indoor				
+4	3/16/2012	LUP	4HH3	Aspirator -indoor	RH	in	35	499_4_3_1_1_3	 2012L_LUPI_098 	 6.49X  	2Rb	+	+	0?	HUMAN	Indoor				
+4	3/16/2012	LUP	4HH3	Aspirator -indoor	RH	in	36	499_4_6_1_1_6	 2012L_LUPI_101 	 8.06X  	+	+	+		HUMAN	Indoor				
+4	3/14/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	37	410_4_2_1_1_2	 2012L_LUPI_041 	17.96	+	+	+		CATTLE	Outdoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	38	454_4_10_1_1_10	 2012L_LUPI_068 	14.27	+	+	+	0	CATTLE	Indoor				
+4	3/16/2012	LUP	4HH3	Aspirator -indoor	RH	in	39	499_4_8_1_1_8	 2012L_LUPI_103 	24.49	+	+	+		HUMAN	Indoor				
+8	8/21/2012	LUP	8HH12	Bucket mbali	RBU	out	2	SS1.2324_04.01.13	 2012_LUPI_156 	28.51	2Rb	+	+	1	CATTLE	Outdoor				
+8	8/21/2012	LUP	8HH12	Bucket mbali	RBU	out	3	SS1.2324_04.01.14	 2012_LUPI_157 	16.76	2Rb	+	+	0?	HUMAN	Outdoor				
+8	8/21/2012	LUP	8HH12	Bucket mbali	RBU	out	4	SS1.2324_04.01.18	 2012_LUPI_161 	6.63	+	3Ra	+		HUMAN	Outdoor				
+8	8/21/2012	LUP	8HH12	Asp.in HH12	RH	in	5	SS1.2328_03.01.02	 2012_LUPI_171 	28.21	2Rb	+	+	1	HUMAN	Indoor				
+8	8/21/2012	LUP	8HH12	Asp.in HH12	RH	in	6	SS1.2328_04.01.02	 2012_LUPI_173 	14.03	2Rb	+	+	1	HUMAN	Indoor				
+8	8/22/2012	LUP	8HH10	Bucket karibu	RBU	out	7	SS1.2359_03.01.01	 2012_LUPI_180 	23.1	2Rb	+	+		HUMAN	Outdoor				
+									 2012L_LUPI_061 	 7.81X  	+	+	+		CATTLE	Indoor				
+8	8/21/2012	LUP	8HH10	Bucket karibu	RBU	out	8	SS1.2226_04.01.05	 2012_LUPI_129 	 11.08X  	2Rb	+	+		HUMAN	Outdoor				
+8	8/21/2012	LUP	8HH12	Bucket mbali	RBU	out	9	SS1.2324_04.01.01	 2012_LUPI_146 	 6.41X  	+	3Ra	+		HUMAN	Outdoor				
+8	8/22/2012	LUP	8HH9	Bucket karibu	RBU	out	10	SS1.2356_03.01.02	 2012_LUPI_178 	 6.5X  	+	+	+	0	HUMAN	Outdoor				
+8	8/22/2012	LUP	8HH11	Bucket mbali	RBU	out	11	SS1.2370_04.01.01	 2012_LUPI_211 	 12.42X  	+	+	+	2	HUMAN	Outdoor				
+8	8/23/2012	LUP	8HH9	Asp. in HH9	RH	in	12	SS1.2445_04.01.01	 2012_LUPI_277 	 9.56X  	2Rb	+	+		HUMAN	Indoor				
+8	8/23/2012	LUP	8HH11	Asp. In HH 11	RH	in	13	SS1.2447_04.01.01	 2012_LUPI_278 	 8.8X  	2Rb	+	+		HUMAN	Indoor				
+8	8/23/2012	LUP	8HH11	Asp. In HH 11	RH	in	14	SS1.2447_04.01.02	 2012_LUPI_279 	 11.02X  	+	3Ra	+		HUMAN	Indoor				
+8	8/23/2012	LUP	8HH12	Asp.in HH12	RH	in	15	SS1.2448_04.01.04	 2012_LUPI_284 	 5.16X  	+	3Ra	+	2?	HUMAN	Indoor				
+4	3/13/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	41	361_4_3_1_1_3	 2012L_LUPI_010 	 15.63X  	+	+	+	0	CATTLE	Outdoor				
+4	3/13/2012	LUP	4HH1	BUCKET Karibu	RBU 5m	out	42	363_4_1_1_1_1	 2012L_LUPI_012 	 12.61X  	2Rb	+	+	0	CATTLE	Outdoor				
+4	3/13/2012	LUP	4HH1	Goat	RA	out	43	364_4_8_1_1_8	 2012L_LUPI_021 	 15.18X  	+	+	+		CATTLE	Indoor				
+4	3/14/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	44	410_4_6_1_1_6	 2012L_LUPI_045 	 12.05X  	+	+	+		CATTLE	Outdoor				
+4	3/14/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	45	410_4_8_1_1_8	 2012L_LUPI_047 	 14.86X  	+	+	+	1	CATTLE	Outdoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	46	454_4_2_1_1_2	 2012L_LUPI_060 	 16.86X  	+	3Ra	+		CATTLE	Indoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	47	454_4_9_1_1_9	 2012L_LUPI_067 	 19.73X  	+	+	+		CATTLE	Indoor				
+8	8/21/2012	LUP	8HH10	Bucket karibu	RBU	out	16	SS1.2226_04.01.01	 2012_LUPI_125 	 12.49X  	2Rb	+	+		HUMAN	Outdoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	48	454_4_1_1_1_1	 LUPI059 	34X  	2Rb	+	+	0	CATTLE	Indoor				
+4	3/13/2012	LUP	4HH3	Aspirator -indoor	RH	in	50	352_4_1_1_1_1	 LUPI001 	 8.71X  	+	3Ra	+		HUMAN	Indoor				
+4	3/13/2012	LUP	4HH3	BUCKET Karibu	RBU 5m	out	51	360_4_1_1_1_1	 LUPI007 	 7.25X  	2Rb	+	+		HUMAN	Outdoor				
+4	3/13/2012	LUP	4HH3	BUCKET mbali	RBU 10m	out	52	365_3_1_1_1_1	 LUPI024 	 9.87X  	+	3Ra	+		HUMAN	Outdoor				
+4	3/15/2012	LUP	4HH3	Aspirator -indoor	RH	in	53	452_4_1_1_1_1	 LUPI056 	 10.07X  	2Rb	+	+	1	HUMAN	Indoor				
+4	3/15/2012	LUP	4HH1	Goat	RA	out	54	454_4_14_1_1_14	 LUPI071 	 4.14X  	+	+	+	2?	CATTLE	Indoor				
+4	3/15/2012	LUP	4HH1	BUCKET Karibu	RBU 5m	out	55	459_4_1_1_1_1	 LUPI074 	 11.48X  	+	+	+	0	CATTLE	Outdoor				
+4	3/15/2012	LUP	4HH1	BUCKET mbali	RBU 10m	out	56	460_4_6_1_1_6	 LUPI082 	 8.07X  	2Rb	+	+		CATTLE	Outdoor				
+																				
+									N=48	17.96				total Cattle	25	24		#N/A		
+														total Human	23	24				
+																		Indoor	Outdoor	
+																	Cattle	12	13	25
+																	Human	12	11	23
+																			Fisher Exact	p=1

@@ -1,0 +1,19 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/bradmain/arabiensis/VCFs/combined_fixed.vcf.bgz
+	--exclude nonLUPI.txt
+	--maf 0.1
+	--max-maf 0.9
+	--out LUPI_maf
+	--recode
+	--remove-indels
+
+Using zlib version: 1.2.7
+Excluding individuals in 'exclude' list
+After filtering, kept 48 out of 64 Individuals
+Outputting VCF file...
+After filtering, kept 4820851 out of a possible 17997159 Sites
+Run Time = 1801.00 seconds
