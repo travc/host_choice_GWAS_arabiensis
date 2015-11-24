@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 import matplotlib as MPL
+MPL.use('agg') # no X (so show won't work)
+
 from matplotlib.figure import Figure
 from matplotlib.patches import Rectangle
 #from matplotlib import rc   #for adding italics. Via latex style
@@ -20,7 +22,7 @@ FST_SIG_COLOR = 'b'
 DSTAT_COLOR = 'r'
 INV_HEIGHT=0.05
 #TITLE="Sequence Differentiation Between Homozygous 2Rb Inversion States (PCA3 Split)"
-TITLE="Genome-wide FST (sliding windows) between PCA Clusters"
+TITLE="Genome-wide FST (sliding windows)\nbetween PCA Clusters"
 
 LEG_LINES = []
 LEG_LABELS = []
@@ -32,7 +34,7 @@ fig, axes = P.subplots(ncols=2,nrows=3)
 fig.subplots_adjust(left=None, bottom=None, right=None, top=None,
                     wspace=.01, hspace=None)
 ((chrX,N), (chr2R, chr2L), (chr3R, chr3L)) = axes
-N.axis('off')
+#N.axis('off')
 
 """
 #Second Y axis
@@ -187,11 +189,11 @@ for C in ['X', '2R', '2L', '3R', '3L']:
     ax.text(x, 0.95, C, size='xx-large', ha=ha, va='top', transform=ax.transAxes)
 
 
-chrX.set_ylabel("$F_{\mathrm{ST}}$",color='b',fontsize=26)
-chr2R.set_ylabel("$F_{\mathrm{ST}}$",color='b',fontsize=26)
-chr3R.set_ylabel("$F_{\mathrm{ST}}$",color='b',fontsize=26)
-chr3R.set_xlabel(r"position [Mb]",fontsize=30)
-chr3L.set_xlabel(r"position [Mb]",fontsize=30)
+chrX.set_ylabel("$F_{\mathrm{ST}}$",color='b',fontsize=24)
+chr2R.set_ylabel("$F_{\mathrm{ST}}$",color='b',fontsize=24)
+chr3R.set_ylabel("$F_{\mathrm{ST}}$",color='b',fontsize=24)
+chr3R.set_xlabel(r"position [Mb]",fontsize=24)
+chr3L.set_xlabel(r"position [Mb]",fontsize=24)
 
 chr2L.get_yaxis().set_visible(False)
 chr3L.get_yaxis().set_visible(False)
@@ -205,10 +207,65 @@ chr3R.set_ylim(FST_LIM)
 
 
 #P.show()
-chrX.set_title(TITLE)
+chrX.set_title(TITLE, y=1.04, fontsize=24)
+
+##################### PCA PLOT
+
+human=[line.strip() for line in open("../pca/allhumanfed.txt")]
+cattle=[line.strip() for line in open("../pca/allcattlefed.txt")]
+
+
+cattlex=[]
+cattley=[]
+humanx=[]
+humany=[]
+for line in open("../pca/LUPI_maf_pca.eigenvec"):
+    i=line.strip().split()
+    pc1=i[2]
+    pc2=i[4]
+    if i[1] in human:
+        humanx.append(pc1) 
+        humany.append(pc2) 
+    elif i[1] in cattle:
+        cattlex.append(pc1) 
+        cattley.append(pc2) 
+    else:
+        print "not human or cattle-fed:", line.strip()
+        gamx.append(pc1) 
+        gamy.append(pc2) 
+        ###P.text(pc1,pc2,i[1],color='g',fontsize=14)
+
+ax = N
+ax.set_xlim(-.4,.3)
+ax.set_ylim(-.35,.45)
+pos = ax.get_position()
+pts = pos.get_points()
+w = pts[1,0]-pts[0,0]
+h = pts[1,1]-pts[0,1]
+nw = w*0.6
+nh = h*0.8
+x0 = pts[0,0]+(w-nw)/2.0
+y0 = pts[0,1]+0.01 #+(h-nh)
+print pts, w, h
+ax.set_position([x0, y0, nw, nh])
+
+ax.plot(cattlex,cattley,'bo',label="cattlefed")
+ax.plot(humanx,humany,'ro',label="humanfed")
+#P.text(-.38,-.3,"P<0.01; humanfed vs cattlefed 2x3 Fisher Exact")
+ax.set_xlabel("PCA1")
+ax.set_ylabel("PCA2")
+ax.set_xlim(-.4,.3)
+ax.set_ylim(-.35,.45)
+leg = ax.legend(numpoints=1, ncol=2, loc=8, bbox_to_anchor=(0.5, 1.01))
+leg.get_frame().set_alpha(0.5)
+#P.title(r"PCA on all \textit{An. arabiensis} SNPs",fontsize=20)
+ax.set_title("PCA on Genome-wide SNPs",fontsize=24, y=1.34)
+
+
+################ Final adjustments and save
 
 fig.set_size_inches(14.4, 9.6)
 #P.show()
-P.savefig('/home/bradmain/public_html/pca_based_fst.pdf', dpi=300)
+P.savefig('pca_based_fst.svg', dpi=300)
 
 
